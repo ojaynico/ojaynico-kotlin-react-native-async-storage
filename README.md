@@ -1,14 +1,14 @@
 # ojaynico-kotlin-react-native-async-storage
 
-[ ![Download](https://api.bintray.com/packages/ojaynico/ojaynico-kotlin-react-native-async-storage/ojaynico-kotlin-react-native-async-storage/images/download.svg?version=1.0.0) ](https://bintray.com/ojaynico/ojaynico-kotlin-react-native-async-storage/ojaynico-kotlin-react-native-async-storage/1.0.0/link)
+[Download](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/1.0.1/pom)
 
 Kotlin wrapper for react-native-async-storage
 
 Java Version : 14
 
-Kotlin Version : 1.4.21
+Kotlin Version : 1.4.30
 
-React Native Async Storage Version : 1.13.2
+React Native Async Storage Version : 1.13.4
 
 **Follow instructions in this repository on how to setup a fully working react native app**
 
@@ -24,12 +24,12 @@ In your react native application shared module (a kotlin gradle project), update
 
 ```kotlin
 repositories {
-    maven { url = uri("https://dl.bintray.com/ojaynico/ojaynico-kotlin-react-native-async-storage") }
+    mavenCentral()
     jcenter()
 }
 
 dependencies {
-    implementation("ojaynico.kotlin.react.native.async.storage:ojaynico-kotlin-react-native-async-storage:1.0.0")
+    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-async-storage:1.0.1")
 }
 ```
 
