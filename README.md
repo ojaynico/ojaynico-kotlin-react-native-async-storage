@@ -20,6 +20,16 @@ https://react-native-async-storage.github.io/async-storage/docs/install/
 
 ## `How to use the wrapper?`
 
+Use the cli tool below to generate a new Kotlin React Native application.
+
+https://github.com/ojaynico/create-ojaynico-krn
+
+Proceed to the next step after generating the project.
+
+Run the following command in your projects root directory.
+
+`npm install @react-native-async-storage/async-storage`
+
 In your react native application shared module (a kotlin gradle project), update your gradle file to include the following in the respective blocks.
 
 ```kotlin
