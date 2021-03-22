@@ -1,14 +1,13 @@
 # ojaynico-kotlin-react-native-async-storage
 
-[Download](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/1.0.1/pom)
-
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/badge.svg)](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/1.0.2/pom)
 [![Kotlin JS IR supported](https://img.shields.io/badge/Kotlin%2FJS-IR%20supported-yellow)](https://kotl.in/jsirsupported)
 
 Kotlin wrapper for react-native-async-storage
 
 Java Version : 14
 
-Kotlin Version : 1.4.30
+Kotlin Version : 1.4.31
 
 React Native Async Storage Version : 1.13.4
 
@@ -41,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-async-storage:1.0.1")
+    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-async-storage:1.0.2")
 }
 ```
 
