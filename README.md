@@ -1,7 +1,7 @@
 # ojaynico-kotlin-react-native-async-storage
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/badge.svg)](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/1.0.3/pom)
-[![Kotlin](https://img.shields.io/badge/kotlin-1.4.32-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/badge.svg)](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-async-storage/1.0.4/pom)
+[![Kotlin](https://img.shields.io/badge/kotlin-1.5.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 [![Kotlin JS IR supported](https://img.shields.io/badge/Kotlin%2FJS-IR%20supported-yellow)](https://kotl.in/jsirsupported)
 
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-async-storage:1.0.3")
+    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-async-storage:1.0.4")
 }
 ```
 

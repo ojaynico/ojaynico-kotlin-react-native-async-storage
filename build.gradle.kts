@@ -1,12 +1,12 @@
 plugins {
-    kotlin("js") version "1.4.32"
+    kotlin("js") version "1.5.0"
     id("maven-publish")
     id("io.codearte.nexus-staging") version "0.30.0"
     signing
 }
 
 group = "com.github.ojaynico"
-version = "1.0.3"
+version = "1.0.4"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()
