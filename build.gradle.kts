@@ -1,12 +1,12 @@
 plugins {
-    kotlin("js") version "1.5.31"
+    kotlin("js") version "1.6.0"
     id("maven-publish")
     id("io.codearte.nexus-staging") version "0.30.0"
     signing
 }
 
 group = "com.github.ojaynico"
-version = "1.0.8"
+version = "1.0.9"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()
@@ -42,8 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-js"))
-    implementation(npm("@react-native-async-storage/async-storage", "1.15.8"))
+    implementation(npm("@react-native-async-storage/async-storage", "1.15.14"))
 }
 
 val sourcesJar by tasks.registering(Jar::class) {
@@ -110,4 +109,12 @@ nexusStaging {
 signing {
     sign(tasks["sourcesJar"])
     sign(publishing.publications["ojaynico-kotlin-react-native-async-storage"])
+}
+
+rootProject.plugins.withType<org.jetbrains.kotlin.gradle.targets.js.yarn.YarnPlugin> {
+    rootProject.the<org.jetbrains.kotlin.gradle.targets.js.yarn.YarnRootExtension>().download = false // or true for default behavior
+}
+
+rootProject.plugins.withType<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin> {
+    rootProject.the<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension>().download = false // or true for default behavior
 }
