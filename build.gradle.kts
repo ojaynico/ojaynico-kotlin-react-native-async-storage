@@ -1,12 +1,12 @@
 plugins {
-    kotlin("js") version "1.6.0"
+    kotlin("js") version "1.6.10"
     id("maven-publish")
     id("io.codearte.nexus-staging") version "0.30.0"
     signing
 }
 
 group = "com.github.ojaynico"
-version = "1.0.9"
+version = "1.1.0"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()
@@ -38,11 +38,10 @@ kotlin {
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
-    implementation(npm("@react-native-async-storage/async-storage", "1.15.14"))
+    implementation(npm("@react-native-async-storage/async-storage", "1.16.0"))
 }
 
 val sourcesJar by tasks.registering(Jar::class) {
